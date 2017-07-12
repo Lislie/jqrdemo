@@ -16,7 +16,7 @@ $(window).bind('scroll', function (event) {
           var time1,time2,time3,time4,time5,time6,time7,time8,time9,time10,time11,time12,time13,time14
           var lin = document.getElementById('line')
           var line = lin.getContext('2d')
-          lin.width = 800
+          lin.width = 880
           lin.height = 600
 
           function Anim (opt) { // 初始化值
@@ -71,9 +71,9 @@ $(window).bind('scroll', function (event) {
           var line1 = new Anim({ // 实例
               Node: line,
               color: 'skyblue',
-              staX: 300,
+              staX: 350,
               staY: 305,
-              len: 270,
+              len: 320,
               timing: 20,
               num: 2,
               direc: false,
@@ -84,9 +84,9 @@ $(window).bind('scroll', function (event) {
           var line2 = new Anim({
               Node: line,
               color: 'skyblue',
-              staX: 270,
+              staX: 320,
               staY: 305,
-              len: 240,
+              len: 190,
               timing: 20,
               num: 2,
               direc: true,
@@ -95,9 +95,9 @@ $(window).bind('scroll', function (event) {
           var line3 = new Anim({
               Node: line,
               color: 'skyblue',
-              staX: 250,
-              staY: 240,
-              len: 200,
+              staX: 320,
+              staY: 190,
+              len: 250,
               timing: 20,
               num: 2,
               direc: false,
@@ -107,8 +107,8 @@ $(window).bind('scroll', function (event) {
           var line4 = new Anim({
               Node: line,
               color: 'skyblue',
-              staX: 250,
-              staY: 400,
+              staX: 340,
+              staY: 420,
               len: 380,
               timing: 20,
               num: 2,
@@ -119,9 +119,9 @@ $(window).bind('scroll', function (event) {
           var line5 = new Anim({
               Node: line,
               color: 'skyblue',
-              staX: 250,
+              staX: 340,
               staY: 380,
-              len: 200,
+              len: 250,
               timing: 20,
               num: 2,
               direc: false,
@@ -131,9 +131,9 @@ $(window).bind('scroll', function (event) {
           var line6 = new Anim({
               Node: line,
               color: 'skyblue',
-              staX: 510,
-              staY: 260,
-              len: 535,
+              staX: 520,
+              staY: 240,
+              len: 555,
               timing: 20,
               num: 2,
               direc: false,
@@ -143,9 +143,9 @@ $(window).bind('scroll', function (event) {
           var line7 = new Anim({
               Node: line,
               color: 'skyblue',
-              staX: 535,
-              staY: 260,
-              len: 180,
+              staX: 555,
+              staY: 240,
+              len: 120,
               timing: 20,
               num: 2,
               direc: true,
@@ -155,9 +155,9 @@ $(window).bind('scroll', function (event) {
           var line8 = new Anim({
               Node: line,
               color: 'skyblue',
-              staX: 535,
-              staY: 180,
-              len: 570,
+              staX: 555,
+              staY: 120,
+              len: 595,
               timing: 20,
               num: 2,
               direc: false,
@@ -167,9 +167,9 @@ $(window).bind('scroll', function (event) {
           var line9 = new Anim({
               Node: line,
               color: 'skyblue',
-              staX: 500,
+              staX: 520,
               staY: 350,
-              len: 560,
+              len: 580,
               timing: 20,
               num: 2,
               direc: false,
@@ -179,9 +179,9 @@ $(window).bind('scroll', function (event) {
           var line10 = new Anim({
               Node: line,
               color: 'skyblue',
-              staX: 560,
+              staX: 580,
               staY: 350,
-              len: 320,
+              len: 290,
               timing: 20,
               num: 2,
               direc: true,
@@ -191,9 +191,9 @@ $(window).bind('scroll', function (event) {
           var line11 = new Anim({
               Node: line,
               color: 'skyblue',
-              staX: 560,
-              staY: 320,
-              len: 630,
+              staX: 580,
+              staY: 290,
+              len: 660,
               timing: 20,
               num: 2,
               direc: false,
@@ -203,9 +203,9 @@ $(window).bind('scroll', function (event) {
           var line12 = new Anim({
               Node: line,
               color: 'skyblue',
-              staX: 500,
-              staY: 400,
-              len: 570,
+              staX: 540,
+              staY: 420,
+              len: 610,
               timing: 20,
               num: 2,
               direc: false,
@@ -214,9 +214,9 @@ $(window).bind('scroll', function (event) {
           var line13 = new Anim({
               Node: line,
               color: 'skyblue',
-              staX: 570,
-              staY: 400,
-              len: 420,
+              staX: 610,
+              staY: 420,
+              len: 460,
               timing: 20,
               num: 2,
               direc: true,
@@ -226,9 +226,9 @@ $(window).bind('scroll', function (event) {
           var line14 = new Anim({
               Node: line,
               color: 'skyblue',
-              staX: 570,
-              staY: 420,
-              len: 650,
+              staX: 610,
+              staY: 460,
+              len: 680,
               timing: 20,
               num: 2,
               direc: false,
@@ -266,15 +266,15 @@ $(window).bind('scroll', function (event) {
           setTime(time13,line13, 10, 1400)
 
           var test = new Anim(); // 绘制文字实例
-          setText(time3,line3, 100, 2600, '情感陪伴', 14, 118, 243, test, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/8.png', 20, 255, 180, 50)
+          setText(time3,line3, 100, 2600, '情感陪伴', 18, 150, 195, test, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/8.png', 20, 210, 210, 60)
           var test2 = new Anim()
-          setText(time5,line5, 100, 1000, '信息查询', 14, 118, 385, test2, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/10.png', 20, 395, 180, 30)
+          setText(time5,line5, 100, 1000, '信息查询', 18, 150, 385, test2, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/10.png', 20, 400, 210, 40)
           var test3 = new Anim()
-          setText(time8,line8, 10, 2300, '头脑容量', 14, 580, 185, test3, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/2.png', 580, 195, 180, 30)
+          setText(time8,line8, 10, 2300, '头脑容量', 18, 610, 125, test3, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/2.png', 610, 140, 210, 40)
           var test4 = new Anim()
-          setText(time11,line11, 100, 1800, '3D立体交互', 14, 640, 325, test4, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/4.png', 640, 335, 180, 30)
+          setText(time11,line11, 100, 1800, '3D立体交互', 18, 680, 295, test4, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/4.png', 680, 310, 210, 40)
           var test5 = new Anim()
-          setText(time14,line14, 100, 2300, '成长能力', 14, 660, 425, test5, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/6.png', 660, 435, 180, 50)
+          setText(time14,line14, 100, 2300, '成长能力', 18, 700, 460, test5, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/6.png', 700, 475, 210, 60)
 
           //
 
