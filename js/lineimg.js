@@ -10,10 +10,35 @@ $(window).bind('scroll', function (event) {
     var PictureTop = parseInt($('#gameContainer').offset().top)
     if (PictureTop >= thisTop && PictureTop <= thisButtomTop) {
 
-          $('#gameContainer').attr('src', $('#gameContainer').attr('haoroomslazyload'))
+           line1.draw(time1); // 执行绘制
+          line4.draw(time4)
+          line6.draw(time6)
+          line9.draw(time9)
+          line12.draw(time12)
 
+          setTime(time2,line2, 10, 1100); // 定时器
+          setTime(time7,line7, 10, 1200)
+          setTime(time10,line10, 10, 1400)
+          setTime(time13,line13, 10, 1400)
 
-          var time1,time2,time3,time4,time5,time6,time7,time8,time9,time10,time11,time12,time13,time14
+          var test = new Anim(); // 绘制文字实例
+          setText(time3,line3, 100, 2800, '情感陪伴', 18, 150, 195, test, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/8.png', 20, 210, 210, 60)
+          var test2 = new Anim()
+          setText(time5,line5, 100, 1000, '信息查询', 18, 150, 385, test2, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/10.png', 20, 400, 210, 40)
+          var test3 = new Anim()
+          setText(time8,line8, 10, 2500, '头脑容量', 18, 610, 125, test3, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/2.png', 610, 140, 210, 40)
+          var test4 = new Anim()
+          setText(time11,line11, 100, 2000, '3D立体交互', 18, 680, 295, test4, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/4.png', 680, 310, 210, 40)
+          var test5 = new Anim()
+          setText(time14,line14, 100, 2600, '成长能力', 18, 700, 460, test5, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/6.png', 700, 475, 210, 60)
+
+            
+        $(window).unbind('scroll')
+      }
+
+})
+
+      var time1,time2,time3,time4,time5,time6,time7,time8,time9,time10,time11,time12,time13,time14
           var lin = document.getElementById('line')
           var line = lin.getContext('2d')
           lin.width = 880
@@ -235,46 +260,28 @@ $(window).bind('scroll', function (event) {
               lw: 4
           })
 
-          // var img=new Image()
-          // img.src="../img/8.png"
-          // line.drawImage(img,60,250,142.5,32.5)
-          // var img2 = new Image()
-          // img2.src="../img/10.png"
-          // line.drawImage(img2,60,395,119,19.5)
-          //
-          // var img3 = new Image()
-          // img3.src="../img/2.png"
-          // line.drawImage(img3,580,195,144.5,20)
-          //
-          // var img4 = new Image()
-          // img4.src="../img/4.png"
-          // line.drawImage(img4,640,335,142.5,20)
-          //
-          // var img5 = new Image()
-          // img5.src="../img/6.png"
-          // line.drawImage(img5,660,435,142.5,32)
+        
+          // line1.draw(time1); // 执行绘制
+          // line4.draw(time4)
+          // line6.draw(time6)
+          // line9.draw(time9)
+          // line12.draw(time12)
 
-          line1.draw(time1); // 执行绘制
-          line4.draw(time4)
-          line6.draw(time6)
-          line9.draw(time9)
-          line12.draw(time12)
+          // setTime(time2,line2, 10, 1100); // 定时器
+          // setTime(time7,line7, 10, 1200)
+          // setTime(time10,line10, 10, 1400)
+          // setTime(time13,line13, 10, 1400)
 
-          setTime(time2,line2, 10, 1100); // 定时器
-          setTime(time7,line7, 10, 1200)
-          setTime(time10,line10, 10, 1400)
-          setTime(time13,line13, 10, 1400)
-
-          var test = new Anim(); // 绘制文字实例
-          setText(time3,line3, 100, 2600, '情感陪伴', 18, 150, 195, test, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/8.png', 20, 210, 210, 60)
-          var test2 = new Anim()
-          setText(time5,line5, 100, 1000, '信息查询', 18, 150, 385, test2, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/10.png', 20, 400, 210, 40)
-          var test3 = new Anim()
-          setText(time8,line8, 10, 2300, '头脑容量', 18, 610, 125, test3, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/2.png', 610, 140, 210, 40)
-          var test4 = new Anim()
-          setText(time11,line11, 100, 1800, '3D立体交互', 18, 680, 295, test4, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/4.png', 680, 310, 210, 40)
-          var test5 = new Anim()
-          setText(time14,line14, 100, 2300, '成长能力', 18, 700, 460, test5, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/6.png', 700, 475, 210, 60)
+          // var test = new Anim(); // 绘制文字实例
+          // setText(time3,line3, 100, 2600, '情感陪伴', 18, 150, 195, test, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/8.png', 20, 210, 210, 60)
+          // var test2 = new Anim()
+          // setText(time5,line5, 100, 1000, '信息查询', 18, 150, 385, test2, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/10.png', 20, 400, 210, 40)
+          // var test3 = new Anim()
+          // setText(time8,line8, 10, 2300, '头脑容量', 18, 610, 125, test3, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/2.png', 610, 140, 210, 40)
+          // var test4 = new Anim()
+          // setText(time11,line11, 100, 1800, '3D立体交互', 18, 680, 295, test4, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/4.png', 680, 310, 210, 40)
+          // var test5 = new Anim()
+          // setText(time14,line14, 100, 2300, '成长能力', 18, 700, 460, test5, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/6.png', 700, 475, 210, 60)
 
           //
 
@@ -310,7 +317,4 @@ $(window).bind('scroll', function (event) {
                   }, set)
               }, out)
           }
-        $(window).unbind('scroll')
-      }
-
-})
+ 
