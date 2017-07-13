@@ -29,6 +29,7 @@ Anim.prototype.draw = function () { // 绘制直线的线条
     y: opt.staY
   }
   var num = 0
+
   var setTime = setInterval(function () {
     opt.direc ? opt.len > ady ? ady += opt.num : ady -= opt.num : opt.len > adx ? adx += opt.num : adx -= opt.num
     // if (adx == opt.len || ady == opt.len) { // 停止循环
@@ -36,9 +37,9 @@ Anim.prototype.draw = function () { // 绘制直线的线条
     //   console.log(adx,ady,opt.len)
     // }
   
-      num++
-      var t = num / 100
-      if (t >= 0.58){
+        num++
+      var t = num/100
+      if (t>=0.577){
         clearInterval(setTime)
       }
     console.log('6666666')
@@ -54,7 +55,7 @@ Anim.prototype.draw = function () { // 绘制直线的线条
 Anim.prototype.txt = function (opc, font, text, x, y) { // 绘制文字
   line.beginPath()
   line.fillStyle = 'rgba(255,255,255,' + opc + ')'
-  line.font = font + 'px bold 黑体 '
+  line.font = font + 'px  黑体'
   line.fillText(text, x, y)
 }
 Anim.prototype.img = function (opc, src, x, y, w, h) { // 绘制图片
@@ -275,15 +276,15 @@ $(window).bind('scroll', function (event) {
     setTime(line13, 1400)
 
     var test = new Anim(); // 绘制文字实例
-    setText(line3, 30, 2000, '情感陪伴', 18, 150, 195, test, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/8.png', 20, 210, 210, 60)
+    setText(line3, 30, 2000, '情感陪伴', 16, 150, 195, test, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/8.png', 20, 210, 210, 60)
     var test2 = new Anim()
-    setText(line5, 100, 300, '信息查询', 18, 150, 385, test2, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/10.png', 20, 400, 210, 40)
+    setText(line5, 100, 300, '信息查询', 16, 150, 385, test2, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/10.png', 20, 400, 210, 40)
     var test3 = new Anim()
-    setText(line8, 30, 2000, '头脑容量', 18, 610, 125, test3, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/2.png', 610, 140, 210, 40)
+    setText(line8, 30, 2000, '头脑容量', 16, 610, 125, test3, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/2.png', 610, 140, 210, 40)
     var test4 = new Anim()
-    setText(line11, 30, 2000, '3D立体交互', 18, 680, 295, test4, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/4.png', 680, 310, 210, 40)
+    setText(line11, 30, 2000, '3D立体交互', 16, 680, 295, test4, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/4.png', 680, 310, 210, 40)
     var test5 = new Anim()
-    setText(line14, 30, 2100, '成长能力', 18, 700, 460, test5, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/6.png', 700, 475, 210, 60)
+    setText(line14, 30, 2100, '成长能力', 16, 700, 460, test5, 'http://or5y02dsh.bkt.clouddn.com/images/front/imgRbt/6.png', 700, 475, 210, 60)
 
     $(window).unbind('scroll')
   }
