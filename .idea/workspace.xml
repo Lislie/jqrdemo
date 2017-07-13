@@ -53,8 +53,8 @@
         <option value="$PROJECT_DIR$/js/linetest.js" />
         <option value="$PROJECT_DIR$/css/science_ppx.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/jqr.js" />
         <option value="$PROJECT_DIR$/js/lineimg.js" />
+        <option value="$PROJECT_DIR$/js/jqr.js" />
       </list>
     </option>
   </component>
@@ -101,6 +101,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jqrdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="逸途科技官网-pc端" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jqrdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -234,12 +248,12 @@
       <workItem from="1499827984684" duration="24000" />
       <workItem from="1499828233903" duration="1155000" />
       <workItem from="1499829855197" duration="5041000" />
-      <workItem from="1499847870060" duration="1537000" />
+      <workItem from="1499847870060" duration="1801000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39449000" />
+    <option name="totallyTimeSpent" value="39713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1200" height="753" extended-state="6" />
@@ -327,14 +341,6 @@
     <entry file="file:C:/../../..//C:/jqrdemo3 2/js/lineimg.js" />
     <entry file="file:C:/../../..//C:/jqrdemo3 2/jqr3.mtl" />
     <entry file="file:C:/../../..//C:/jqrdemo3 2/index.html" />
-    <entry file="file:$PROJECT_DIR$/../../../..//$PROJECT_DIR$/js/jqr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:$PROJECT_DIR$/../../../..//$PROJECT_DIR$/js/linetest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -355,6 +361,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="186" column="14" lean-forward="true" selection-start-line="186" selection-start-column="14" selection-end-line="186" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:$PROJECT_DIR$/../../../..//$PROJECT_DIR$/js/jqr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="32" column="56" lean-forward="false" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
           <folding />
         </state>
       </provider>

@@ -38,7 +38,7 @@ Anim.prototype.draw = function () { // 绘制直线的线条
   
       num++
       var t = num / 100
-      if (t >= 0.6){
+      if (t >= 0.58){
         clearInterval(setTime)
       }
     console.log('6666666')
@@ -153,7 +153,7 @@ var line8 = new Anim({
   Node: line,
   color: 'skyblue',
   staX: 555,
-  staY: 120,
+  staY: 125,
   len: 595,
   timing: 20,
   num: 2,
